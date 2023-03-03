@@ -1,0 +1,9 @@
+type Aplication @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String!
+  about: String
+  age: String
+  color: String
+  image: String!
+}
+ 
